@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Meta tags Obrigatórias -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--FULLSCREEN AJAX -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css">
+        <link rel="stylesheet" type="text/css" href="fullpage/fullpage.css">
+        <script src="fullpage/fullpage.js"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <title>DuckDuck - Home</title>
+        <!-- CSS LINK -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#C6C013" style="z-index:15;" >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+            <img src="imagens/logo.png" width="50" height="50">
+            </a>
+            <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+                <div class="dropdown">
+                    <ul class="nav navbar-nav mr-auto mt-2 mt-lg-0 ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="nav navbar-nav navbar-right" style="z-index:15;">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </nav>
+        <div id="fullpage" >
+        <div class="section" id="section1" >
+            <h1 class="format fade-txt">Sistema Gerenciador de Estoque</h1>
+            <h2 id="depresso" class="fade-txt"><strong>DuckDuck Development</strong></h2>
+        </div>
+        <div class="section" id="section2">
+            <div id="divsec2">
+                <h1 id="format2" class="col-lg-12">O software feito para sua empresa!</h1>
+            </div>
+            <div class="row col-lg-12">
+                <a class="row_cell" href="#responsividade">
+                    <img src="imagens/iphone.png" id="iphone">
+                    <h1 style="padding-top: 25px;">Responsivo</h1>
+                </a>
+                <a class="row_cell" href="#manutencao">
+                    <img src="imagens/suporte.png" id="suporte" ;">
+                    <h1 style="padding-top:0px">Manutenções</h1>
+                </a>
+                <a class="row_cell" href="#seguranca">
+                    <img src="imagens/escudo.png" id="escudo">
+                    <h1 style="padding-top:25px;">Segurança</h1>
+                </a>
+            </div>
+        </div>
+        <div class="section" id="section3">
+        <div class="slide" id="slide1">
+            <div class="principal" id="responsividade" data-anchor="responsividade">
+                <div class="box container">
+                    <div class="row">
+                        <div class="imgBx col-md-6 col-12"> 
+                            <img src="imagens/responsivogif.gif">
+                        </div>
+                        <div class="content col-md-6 col-12" >
+                            <h1>Responsividade</h1>
+                            <p>Com o apoio de diversas tecnologias atuais, o <strong>SGDE</strong> da DuckDuck é 100% responsivo para todas as plataformas do mercado!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide" id="slide2" data-anchor="manutencao">
+            <div class="principal" id="manutencao" >
+                <div class="box container">
+                    <div class="row">
+                        <div class="imgBx col-md-6 col-12"> 
+                            <img src="imagens/roda.gif">
+                        </div>
+                        <div class="content col-md-6 col-12">
+                            <h1>Manutenção</h1>
+                            <p>Nossos desenvolvedores trabalham a todo vapor para sempre atualizar o SGDE, deixando-o compatível com as exigências do cliente.Ao contratar quaisquer dos serviços prestados pela DuckDuck, você poderá contatar o suporte técnico sempre que necessário. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide" id="slide3">
+            <div class="principal">
+                <div class="box container">
+                    <div class="row">
+                        <div class="imgBx col-md-6 col-12"> 
+                            <img src="imagens/lock.gif">
+                        </div>
+                        <div class="content col-md-6 col-12" id="seguranca" data-anchor="seguranca">
+                            <h1>Segurança</h1>
+                            <p>Levamos a confiabilidade e segurança de nossas aplicações muito a sério na DuckDuck, sendo todas revisadas por especialistas na área, garantindo a proteção de informações vitais para o funcionamento da empresa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js"></script>
+        <script>
+            $('#fullpage').fullpage({
+            	navigation: true,
+            	slidesNavigation: true,
+            	controlArrows: false,
+            	parallax: true,
+            	parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'}
+            });
+            
+            
+        </script>
+        <!-- JavaScript-->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    </body>
+</html>

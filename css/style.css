@@ -1,0 +1,317 @@
+body {
+	text-align: center;
+}
+
+
+/* CLASS */
+
+.section {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+.slide img {
+	width: 100%;
+	height: 100%;
+}
+
+.format {
+	margin-bottom: 650px;
+	text-align: center;
+	font-size: 200%;
+	padding-bottom: 5px;
+	font-family: 'century gothic', cursive;
+	color: white;
+}
+
+.row {
+	width: 100%;
+}
+
+.row_cell {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	text-align: center;
+	margin: 1em 1 em;
+	border: solid 1px white;
+	border-radius: 25px;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row_cell h1 {
+	font-size: 30px;
+	color: white;
+}
+
+.row_cell img {
+	width: 120px;
+}
+
+.box {
+	padding: 20px;
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	display: flex;
+}
+
+.box:hover {
+	box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
+}
+
+.box .imgBx {
+	width: 50%;
+	flex: 0 0 50%;
+}
+
+.box .imgBx img {
+	width: 100%;
+	display: block;
+	max-width: 100%;
+}
+
+.box .content {
+	padding-left: 20px;
+}
+
+.box .content h2 {
+	margin: 0;
+	padding-left: 0;
+	font-size: 100%
+}
+
+.box .content p {
+	margin: 0;
+	padding: 10px 0 0;
+	text-align: justify;
+}
+.principal {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* IDS */
+
+#iphone {
+	padding-top: 35px;
+	width: 100px;
+	height: 100px;
+}
+
+#escudo {
+	padding-top: 35px;
+	width: 100px;
+	height: 100px;
+}
+
+#suporte {
+	width: 125px;
+	height: 125px;
+	padding-top: 0px;
+}
+
+#depresso {
+	padding-top: 50px;
+	font-family: 'century gothic', cursive;
+	color: white;
+}
+
+#section1 {
+	background: url(../imagens/fundo.gif) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#section2 {
+	background-color: #255F85;
+}
+
+#format2 {
+	text-align: center;
+	font-size: 300%;
+	padding-bottom: 5px;
+	font-family: 'century gothic', cursive;
+	color: white;
+}
+
+#format3 {
+	text-align: center;
+	font-size: 200%;
+	padding-bottom: 5px;
+	font-family: 'century gothic', cursive;
+	color: black;
+}
+
+#divsec2 h1 {
+	margin-bottom: 300px;
+}
+
+#predio {
+	width: 500px;
+	height: 300px;
+	padding-left: 200px;
+}
+
+#imgsec2 {
+	padding-right: 500px;
+}
+
+#slide1 {
+	background-color: #EB5E55;
+}
+
+#slide2 {
+	background-color: #5E548E;
+}
+#slide3{
+	background-color: #9AD4D6;
+}
+#gif3 {
+	float: left;
+}
+
+#dresponsivo {
+	width: 100%;
+	height: 100%;
+	padding-left: 600px;
+	float: right;
+}
+
+#ttt span {
+	font-size: 300%;
+	vertical-align: center;
+}
+/* FADE ANIMATION */
+
+.fade-txt {
+	-webkit-animation: fadein 5s;
+	/* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 5s;
+	/* Firefox < 16 */
+	-ms-animation: fadein 5s;
+	/* Internet Explorer */
+	-o-animation: fadein 5s;
+	/* Opera < 12.1 */
+	animation: fadein 5s;
+	*/ animation-fill-mode: forwards;
+	opacity: 1;
+}
+
+
+/* FADEIN */
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+
+/* Firefox < 16 */
+
+@-moz-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+
+/* Internet Explorer */
+
+@-ms-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+
+/* Opera < 12.1 */
+
+@-o-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width: 1580px) {
+	h1 {
+		font-size: 18px;
+	}
+	.unbehaved-element {
+		font-size: 1.9em;
+		/* Fine tune unbehaved elements */
+	}
+}
+
+@media(max-width: 980px) {
+	h1 {
+		font-size: 16px;
+	}
+}
+
+@media(max-width: 400px) {
+	h1 {
+		font-size: 100%;
+	}
+	#section1 h1 {
+		margin-bottom: 250px;
+	}
+	#section2 h1 {}
+	#slide1 h2 {
+		font-size: 150% margin-bottom:100px;
+	}
+	#section2 img {
+		width: 300px;
+		height: 300px;
+		padding-left: 100px;
+	}
+}
+
+span {
+	margin: 0;
+	padding: 0;
+}
